@@ -1,18 +1,27 @@
-import "./style.css";
+import { useContext } from "react";
+import { ChallengesContext } from "../../context/challenges.context";
+import styles from "./experience-bar.module.css";
 
 interface BarProps {}
 
 export const ExperienceBar = (props: BarProps) => {
+  const { experience, experienceToLevelUp } = useContext(ChallengesContext);
+
+  const percentToLevelUp = Math.round((experience * 100) / experienceToLevelUp);
+
   return (
-    <header className="experience-bar">
+    <header className={styles.experienceBar}>
       <span>0 XP</span>
       <div>
-        <div style={{ width: "50%" }} />
-        <span className="current-experience" style={{ left: "50%" }}>
-          300 XP
+        <div style={{ width: `${percentToLevelUp}%` }} />
+        <span
+          className={styles.currentExperience}
+          style={{ left: `${percentToLevelUp}%` }}
+        >
+          {experience} XP
         </span>
       </div>
-      <span>600 XP</span>
+      <span>{experienceToLevelUp} XP</span>
     </header>
   );
 };
