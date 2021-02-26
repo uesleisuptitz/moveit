@@ -36,6 +36,7 @@ Pelo terminal:
 - [ ] Ranking de usuários
 - [ ] Layout 2.0
 - [ ] Versão mobile
+- [ ] Compartilhar progresso via redes sociais
 
 ## Autor
 
