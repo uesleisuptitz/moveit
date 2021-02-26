@@ -30,6 +30,13 @@ Pelo terminal:
 - Utilizando **npm** ou **yarn**, instale as dependências do projeto. Exemplo: execute o comando `yarn` ou `npm i`
 - Agora, basta executar `yarn start` ou `npm start` e o projeto vai iniciar no endereço `localhost:3000`
 
+## Próximas funcionalidades
+
+- [ ] Autenticação com GitHub
+- [ ] Ranking de usuários
+- [ ] Layout 2.0
+- [ ] Versão mobile
+
 ## Autor
 
 Uéslei Suptitz, amante de desenvolvimento.
