@@ -1,6 +1,33 @@
+<p align="center">
+  <img src="https://github.com/uesleisuptitz/moveit/blob/main/public/logo192.png" alt="Move.it" />
+</p>
+<h1>
+  <a href="https://moveit-uesleisuptitz.vercel.app/">
+    Move.it
+  </a>
+</h1>
+<p>Esse projeto foi construído na 4ª edição do NLW da @Rocketseat. O Move.it busca melhorar a saúde dos devs sugerindo desafios com exercícios para os olhos, braços, pescoço, pernas, tronco e outras partes do corpo. Após um ciclo que tempo esperado, surge um desafio que você pode fazer para ganhar XP e melhorar a sua saúde. Conforme você vai acumulando desafios concluídos o seu nível também vai aumentando.
+</>
+  
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre](#Sobre)
+   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Instalação](#instalacao)
+   * [Como usar](#como-usar)
+      * [Pre Requisitos](#pre-requisitos)
+      * [Local files](#local-files)
+      * [Remote files](#remote-files)
+      * [Multiple files](#multiple-files)
+      * [Combo](#combo)
+   * [Tests](#testes)
+   * [Tecnologias](#tecnologias)
+<!--te-->
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+
 
 First, run the development server:
 
