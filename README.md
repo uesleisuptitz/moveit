@@ -2,8 +2,6 @@
   <img src="https://github.com/uesleisuptitz/moveit/blob/main/public/logo192.png" alt="Move.it" />
 </p>
 <h1>
-  Overview
-  ========
   <a href="https://moveit-uesleisuptitz.vercel.app/">
     Move.it
   </a>
@@ -14,12 +12,16 @@
 Tabela de conteúdos
 ===================
 <!--ts-->
-   * [Overview](#tecnologias)
-   * [Tecnologias](#tecnologias)
+   * [Pré-requisitos](#pre-requisitos)
 <!--te-->
 
-Tecnologias
-===========
+Pré-requisitos
+==============
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/)
+- [Npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
+- Uma IDE, como o [VSCode](https://code.visualstudio.com/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
