@@ -27,8 +27,6 @@ export default function Home({
       challengesCompleteds={challengesCompleteds}
     >
       <Head>
-        <link rel="manifest" href="/manifest.json" />
-        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
         <title>Move.it</title>
       </Head>
       <div className={styles.container}>
