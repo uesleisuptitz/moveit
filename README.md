@@ -6,7 +6,7 @@
 
 Esse projeto foi construído na 4ª edição do NLW da @Rocketseat. O Move.it busca melhorar a saúde dos devs sugerindo desafios com exercícios para os olhos, braços, pescoço, pernas, tronco e outras partes do corpo. Após um ciclo que tempo esperado, surge um desafio que você pode fazer para ganhar XP e melhorar a sua saúde. Conforme você vai acumulando desafios concluídos o seu nível também vai aumentando.
   
-### Tecnologias
+## Tecnologias
 
 As seguintes tecnologias foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
@@ -14,7 +14,7 @@ As seguintes tecnologias foram usadas na construção do projeto:
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-### Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 - [Git](https://git-scm.com)
@@ -22,7 +22,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 - [Npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
 - Uma IDE, como o [VSCode](https://code.visualstudio.com/)
 
-### Passo a passo
+## Passo a passo
 
 Pelo terminal:
 - Faça o clone do projeto em algum local da sua máquina. Exemplo: `user/projetos`
