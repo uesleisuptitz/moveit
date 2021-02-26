@@ -10,8 +10,9 @@
 Tabela de conteúdos
 ===================
 <!--ts-->
-   * [Move.it](#move.it)
+   * [Move.it](#moveit)
    * [Pré-requisitos](#pré-requisitos)
+   * [Tecnologias](#tecnologias)
 <!--te-->
 
 # Pré-requisitos
@@ -21,5 +22,22 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 - [Node.js](https://nodejs.org/en/)
 - [Npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
 - Uma IDE, como o [VSCode](https://code.visualstudio.com/)
+
+# Tecnologias
+
+As seguintes tecnologias foram usadas na construção do projeto:
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+# Autor
+
+<img style="border-radius: 50%;" src="http://github.com/uesleisuptitz.png" width="100px;" alt="Uéslei Suptitz"/>
+Uéslei Suptitz
+- [LinkedIn](https://www.linkedin.com/in/u%C3%A9slei-suptitz/)
+- uesleisuptitz@gmail.com
+- (51)98290-7685
+
 
 
