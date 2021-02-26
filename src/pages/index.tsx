@@ -27,6 +27,7 @@ export default function Home({
       challengesCompleteds={challengesCompleteds}
     >
       <Head>
+        <link rel="manifest" href="/manifest.json" />
         <title>Move.it</title>
       </Head>
       <div className={styles.container}>
