@@ -5,23 +5,52 @@ import { CompleteChallenges } from "../components/completed-challenges/completed
 import { Countdown } from "../components/countdown/countdown";
 import { ChallengeBox } from "../components/challenge-box/challenge-box";
 import { CountdownProvider } from "../context/countdown.context";
+import { GetServerSideProps } from "next";
+import { ChallengesProvider } from "../context/challenges.context";
 
-export default function Home() {
+interface HomeProps {
+  level: number;
+  experience: number;
+  challengesCompleteds: number;
+}
+
+export default function Home({
+  level,
+  experience,
+  challengesCompleteds,
+}: HomeProps) {
   return (
-    <div className={styles.container}>
-      <ExperienceBar />
-      <CountdownProvider>
-        <section>
-          <div>
-            <Profile />
-            <CompleteChallenges />
-            <Countdown />
-          </div>
-          <div>
-            <ChallengeBox />
-          </div>
-        </section>
-      </CountdownProvider>
-    </div>
+    <ChallengesProvider
+      level={level}
+      experience={experience}
+      challengesCompleteds={challengesCompleteds}
+    >
+      <div className={styles.container}>
+        <ExperienceBar />
+        <CountdownProvider>
+          <section>
+            <div>
+              <Profile />
+              <CompleteChallenges />
+              <Countdown />
+            </div>
+            <div>
+              <ChallengeBox />
+            </div>
+          </section>
+        </CountdownProvider>
+      </div>
+    </ChallengesProvider>
   );
 }
+
+export const getServerSideProps: GetServerSideProps = async (ctx) => {
+  const { level, experience, challengesCompleteds } = ctx.req.cookies;
+  return {
+    props: {
+      level: Number(level),
+      experience: Number(experience),
+      challengesCompleteds: Number(challengesCompleteds),
+    },
+  };
+};

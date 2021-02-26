@@ -43,8 +43,6 @@ export const CountdownProvider = ({ children }: CountdownProviderProps) => {
     setTime(5);
   };
 
-  console.log("time", time);
-
   return (
     <CountdownContext.Provider
       value={{
