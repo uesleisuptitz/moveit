@@ -7,6 +7,7 @@ import { ChallengeBox } from "../components/challenge-box/challenge-box";
 import { CountdownProvider } from "../context/countdown.context";
 import { GetServerSideProps } from "next";
 import { ChallengesProvider } from "../context/challenges.context";
+import Head from "next/head";
 
 interface HomeProps {
   level: number;
@@ -25,6 +26,9 @@ export default function Home({
       experience={experience}
       challengesCompleteds={challengesCompleteds}
     >
+      <Head>
+        <title>Move.it</title>
+      </Head>
       <div className={styles.container}>
         <ExperienceBar />
         <CountdownProvider>
