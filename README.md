@@ -32,6 +32,6 @@ Pelo terminal:
 
 ## Autor
 
-Uéslei Suptitz, amante de desenvolvimento
+Uéslei Suptitz, amante de desenvolvimento.
 - [LinkedIn](https://www.linkedin.com/in/u%C3%A9slei-suptitz/)
 - uesleisuptitz@gmail.com
