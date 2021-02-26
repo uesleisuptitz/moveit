@@ -4,7 +4,7 @@
 
 # [Move.it](https://moveit-uesleisuptitz.vercel.app/)
 
-Esse projeto foi construído na 4ª edição do NLW da @Rocketseat. O Move.it busca melhorar a saúde dos devs sugerindo desafios com exercícios para os olhos, braços, pescoço, pernas, tronco e outras partes do corpo. Após um ciclo que tempo esperado, surge um desafio que você pode fazer para ganhar XP e melhorar a sua saúde. Conforme você vai acumulando desafios concluídos o seu nível também vai aumentando.
+Esse projeto foi construído na 4ª edição do NLW da @Rocketseat. O Move.it busca melhorar a saúde dos devs sugerindo desafios com exercícios para os olhos, braços, pescoço, pernas, tronco e outras partes do corpo. Após um ciclo de tempo esperado, surge um desafio que você pode fazer para ganhar XP e melhorar a sua saúde. Conforme você vai acumulando desafios concluídos o seu nível também vai aumentando.
   
 ## Tecnologias
 
