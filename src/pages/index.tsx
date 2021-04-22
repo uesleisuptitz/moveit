@@ -20,6 +20,7 @@ export default function Home({
   experience,
   challengesCompleteds,
 }: HomeProps) {
+  
   return (
     <ChallengesProvider
       level={level}
