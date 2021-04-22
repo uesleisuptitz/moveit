@@ -28,6 +28,7 @@ export default function Home({
     >
       <Head>
         <title>Move.it</title>
+        <meta name="google-site-verification" content="mS37PbVUnBsWwaGl8Z0EDKFoHI1f7zyOVK4MzF4zKjs" />
       </Head>
       <div className={styles.container}>
         <ExperienceBar />
